@@ -1,14 +1,14 @@
+macro_altf2: macro_altf2{
+compatible = "zmk,behavior-macro";
+label = "macro_altf2";
+#binding-cells = <0>;
+bindings = <&kp LA(F2)>;
+};
 macro_macro_unicode: macro_macro_unicode{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_unicode";
 #binding-cells = <0>;
 bindings = <&kp RC(RS(u+00E9))>, <&kp SPACE>;
-};
-macro_macro_altf2: macro_macro_altf2{
-compatible = "zmk,behavior-macro";
-label = "macro_macro_altf2";
-#binding-cells = <0>;
-bindings = <&kp LA(F2)>;
 };
 macro_print: macro_print{
 compatible = "zmk,behavior-macro";
